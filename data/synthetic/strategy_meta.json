@@ -1,0 +1,19 @@
+{
+  "notes": "Illustrative strategy priorities per department (0..1)",
+  "departments": [
+    "R&D",
+    "Product",
+    "Sales",
+    "Ops",
+    "IT",
+    "HR"
+  ],
+  "priorities": [
+    0.95,
+    0.8,
+    0.7,
+    0.6,
+    0.65,
+    0.55
+  ]
+}

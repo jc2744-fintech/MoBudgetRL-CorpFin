@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morlba"
+version = "0.1.0"
+description = "Multi-objective RL for corporate budget allocation (return, risk, fairness)."
+authors = [{name="Research Group"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "PyYAML>=6.0.0",
+    "pytest>=7.0.0"
+]
+
+[project.urls]
+homepage = "https://example.com"
+repository = "https://example.com"
